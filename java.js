@@ -9,7 +9,6 @@ if(document.readyState !== "loading") {
 }
 
 function initializeCode() {
-    // Change "Hello world" to "Moi maailma"
     const printButton = document.getElementById("button-1");
     const helloWorld = "Hello world";
     const moiMaailma = "Moi maailma";
@@ -22,8 +21,6 @@ function initializeCode() {
         textChange.textContent = moiMaailma
     })
 
-
-    // Add items to list
     const list = document.getElementById("my list");
     const addItem = document.getElementById("add data");
     const inputItem = document.getElementById("enter note");
