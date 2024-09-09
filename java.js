@@ -9,7 +9,7 @@ if(document.readyState !== "loading") {
 }
 
 function initializeCode() {
-    const printButton = document.getElementById("button-1");
+    const printButton = document.getElementById("my-button");
     const helloWorld = "Hello world";
     const moiMaailma = "Moi maailma";
 
