@@ -22,7 +22,7 @@ function initializeCode() {
     })
 
     const list = document.getElementById("my list");
-    const addItem = document.getElementById("add data");
+    const addItem = document.getElementById("add-data");
     const inputItem = document.getElementById("enter note");
 
     addItem.addEventListener("click", function() {
